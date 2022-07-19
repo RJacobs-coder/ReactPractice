@@ -1,0 +1,69 @@
+@import 'animations.scss';
+
+$color1: #4cd7f4;
+$color2: #00a8d6;
+$color3: #e2feff;
+$color4: #fcfcd4;
+
+
+$picsize: 50px;
+//Main Header
+#MainHeader {
+    background: $color4;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    #MainTitle {
+      float: left;
+      padding-bottom: 0%;
+      position: absolute;
+      #MainHeaderTitle {
+        color: $color2;
+        font-size: 75px;
+      }
+    }
+  
+    #SocialDiv {
+      float: right;
+    }
+    // Social Media buttons + Animations
+  
+    #SocialList {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      a {
+        display: inline-block;
+      }
+    }
+    .Socials {
+      display: flex;
+      flex-direction: row;
+  
+      .pictureWindow {
+        height: $picsize;
+        width: $picsize;
+        z-index: 4;
+      }
+      .pictureLogo {
+        height: $picsize;
+        width: $picsize;
+        position: absolute;
+        z-index: 2;
+      }
+      .backDrop {
+        height: $picsize;
+        width: $picsize;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+      }
+      .midDrop {
+        height: $picsize;
+        width: $picsize;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 3;
+      }
+    }
+  }

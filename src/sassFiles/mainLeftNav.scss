@@ -1,0 +1,64 @@
+$color1: #4cd7f4;
+$color2: #00a8d6;
+$color3: #e2feff;
+$color4: #fcfcd4;
+
+$picsize: 50px;
+
+//Left Nav + Body
+
+#NavBodyDiv {
+    position: fixed;
+    //background-color: $color1;
+    height: 100%;
+    width: 100%;
+  
+    a{
+      display:inline-block;
+    }
+    //Left Nav Bar
+    #MainLeftNav {
+      height: 100%;
+      width: 10%;
+      //background: $color2;
+      float: left;
+      position:relative;
+  
+    }
+    #NavBarContainer{
+      width:10%;
+      height:00%; // currently at zero to prevent main body from disapearing.
+      .NavButtonsList{
+        padding-top:10px;
+      }
+    }
+  
+  
+    .NavButtons {
+      //background-color: $color3;
+      color: black;
+      border-color: #00a8d6;
+      border-radius: 20%;
+      
+      padding-top:0.1%;
+      height: 50px;
+      width: 150px;
+  
+      
+  
+    }
+}
+
+.NavButtons {
+    //background-color: $color3;
+    color: black;
+    border-color: #00a8d6;
+    border-radius: 20%;
+    
+    padding-top:0.1%;
+    height: 50px;
+    width: 150px;
+
+    
+
+  }

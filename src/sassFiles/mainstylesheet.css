@@ -1,0 +1,128 @@
+#MainHeader {
+  background: #fcfcd4;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+#MainHeader #MainTitle {
+  float: left;
+  padding-bottom: 0%;
+  position: absolute;
+}
+#MainHeader #MainTitle #MainHeaderTitle {
+  color: #00a8d6;
+  font-size: 75px;
+}
+#MainHeader #SocialDiv {
+  float: right;
+}
+#MainHeader #SocialList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#MainHeader #SocialList a {
+  display: inline-block;
+}
+#MainHeader .Socials {
+  display: flex;
+  flex-direction: row;
+}
+#MainHeader .Socials .pictureWindow {
+  height: 50px;
+  width: 50px;
+  z-index: 4;
+}
+#MainHeader .Socials .pictureLogo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+}
+#MainHeader .Socials .backDrop {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+#MainHeader .Socials .midDrop {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+}
+
+#NavBodyDiv {
+  position: fixed;
+  background-color: #4cd7f4;
+  height: 100%;
+  width: 100%;
+}
+#NavBodyDiv a {
+  display: inline-block;
+}
+#NavBodyDiv #MainLeftNav {
+  height: 100%;
+  width: 10%;
+  background: #00a8d6;
+  float: left;
+  position: relative;
+}
+#NavBodyDiv #NavBarContainer {
+  width: 10%;
+  height: 0%;
+}
+#NavBodyDiv #NavBarContainer .NavButtonsList {
+  padding-top: 10px;
+}
+#NavBodyDiv .NavButtons {
+  background-color: #e2feff;
+  color: black;
+  border-color: #00a8d6;
+  border-radius: 20%;
+  padding-top: 0.1%;
+  height: 50px;
+  width: 150px;
+}
+
+.NavButtons {
+  background-color: #e2feff;
+  color: black;
+  border-color: #00a8d6;
+  border-radius: 20%;
+  padding-top: 0.1%;
+  height: 50px;
+  width: 150px;
+}
+
+#MainBody {
+  margin-left: 30%;
+  color: #e2feff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+}
+
+#MainFooter {
+  background: #fcfcd4;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+* {
+  padding: 0;
+  margin: 0%;
+}
+
+.App {
+  background: #fcfcd4;
+}
+.App h1 {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=mainstylesheet.css.map */

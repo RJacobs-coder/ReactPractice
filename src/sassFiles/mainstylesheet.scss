@@ -1,0 +1,32 @@
+@import 'mainHeader.scss';
+@import 'mainLeftNav.scss';
+@import 'mainBody.scss';
+@import 'mainFooter.scss';
+
+$color1: #4cd7f4;
+$color2: #00a8d6;
+$color3: #e2feff;
+$color4: #fcfcd4;
+
+
+$picsize: 50px;
+
+
+* {
+  padding: 0;
+  margin: 0%;
+}
+.App {
+  background: $color4;
+  h1 {
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+ 
+
+
